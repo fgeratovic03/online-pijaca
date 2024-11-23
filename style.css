@@ -233,3 +233,93 @@ footer button[type="submit"] {
 footer button[type="submit"]:hover {
     background-color: #22691f;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .slider img {
+        width: 80%;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #proizvodi {
+        width: 100%;
+    }
+
+    .proizvodi-kartica {
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+
+    #korpa {
+        flex: 0 0 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #kriterijum-sortiranja {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #dugme-sortiranja {
+        margin-left: 0;
+    }
+
+    footer input[type="text"],
+    footer input[type="password"],
+    footer input[type="tel"],
+    footer input[type="email"] {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .slider img {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .proizvodi-kartica {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #korpa {
+        flex: 0 0 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    footer input[type="text"],
+    footer input[type="password"],
+    footer input[type="tel"],
+    footer input[type="email"] {
+        width: 100%;
+    }
+
+    footer button[type="submit"] {
+        width: 100%;
+    }
+}
