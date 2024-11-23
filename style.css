@@ -139,7 +139,7 @@ main {
     margin-right: 0; 
 }
 
-.proizvodi-kartica h3 {
+h3 {
     margin-top: 0;
 }
 
@@ -179,7 +179,7 @@ button:hover {
     background-color: #f8f8f8;
 }
 
-#o_nama h2 {
+h2 {
     color: #333;
     font-size: 24px;
     margin-bottom: 10px;
