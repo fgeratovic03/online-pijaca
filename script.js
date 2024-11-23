@@ -74,9 +74,6 @@ function prikaziProizvode() {
     }
 }
 
-function sortirajProizvode() {
-    var selectElement = document.getElementById("kriterijum-sortiranja");
-    var kriterijum = selectElement.value;
 
     var sortirajFunkcija;
     if (kriterijum === "ime") {
