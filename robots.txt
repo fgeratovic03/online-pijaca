@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /prozvodi/
+Disallow:
 
 Sitemap: https://fgeratovic03.github.io/online-pijaca/sitemap.xml
 
